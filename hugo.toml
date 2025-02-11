@@ -1,0 +1,4 @@
+baseURL = 'https://asyncawa.it/'
+languageCode = 'en-us'
+title = 'asyncawa.it'
+theme = "asyncstheme"
