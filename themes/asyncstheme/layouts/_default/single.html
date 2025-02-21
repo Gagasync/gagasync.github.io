@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
-    <h2>{{ .Title }}</h2>
+    {{ .Title }}
     <p>{{ .Date | time.Format ":date_medium" }}</p>
     <div>
         {{ .Content }}

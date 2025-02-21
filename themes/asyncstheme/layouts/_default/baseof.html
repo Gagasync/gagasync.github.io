@@ -11,8 +11,14 @@
 </head>
 <body>
     <header>
-        <a href="/">{{ .Site.Title }}</a>
-        <a href="/posts" class="posts-link">Posts</a>
+        <div class="title">
+            {{ .Site.Title }}
+        </div>
+        <div class="links">
+            <a href="/posts">Posts</a>
+            <a href="https://github.com/gagasync">Github</a>
+            <a href="https://lichess.org/gagasync">LiChess</a>
+        </div>
     </header>
     <main>
         {{ block "main" . }}{{ end }}

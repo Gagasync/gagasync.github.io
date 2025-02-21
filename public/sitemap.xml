@@ -8,6 +8,12 @@
     <loc>http://localhost:1313/posts/helloworld/</loc>
     <lastmod>2025-02-11T20:51:30+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/helloworld2/</loc>
+    <lastmod>2025-02-11T20:51:30+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/helloworld3/</loc>
+    <lastmod>2025-02-11T20:51:30+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-02-11T20:51:30+05:30</lastmod>
   </url><url>
