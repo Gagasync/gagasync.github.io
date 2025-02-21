@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
     <header>
-        <h1><a href="/">{{ .Site.Title }}</a></h1>
+        <a href="/">{{ .Site.Title }}</a>
+        <a href="/posts" class="posts-link">Posts</a>
     </header>
     <main>
         {{ block "main" . }}{{ end }}
     </main>
-    <footer>
-        <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
-    </footer>
 </body>
 </html>
